@@ -2,7 +2,7 @@ let titulo = document.createElement("h1");
 titulo.innerText = "Produto em promoção";
 titulo.id = "promocao";
 
-let tituloDiv = document.querySelector(".tituloDiv");
+let tituloDiv = document.querySelector("body");
 tituloDiv.appendChild(titulo);
 
 console.log(titulo);
@@ -14,5 +14,5 @@ produto.innerHTML = `
     <h3>Preço: 2.000,00 </h3>`
 
 
-let produtoDiv = document.querySelector(".produtoDiv");
+let produtoDiv = document.querySelector("body");
 produtoDiv.appendChild(produto);
